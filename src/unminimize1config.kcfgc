@@ -1,0 +1,4 @@
+File=unminimize1.kcfg
+ClassName=Unminimize1Config
+Singleton=true
+Mutators=true
