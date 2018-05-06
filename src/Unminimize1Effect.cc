@@ -98,10 +98,10 @@ void Unminimize1Effect::paintWindow(KWin::EffectWindow* w, int mask, QRegion reg
             ? static_cast<qreal>(icon.width()) / geometry.width()
             : static_cast<qreal>(icon.height()) / geometry.height();
 
-        data.setXScale(interpolate(fromScale, data.xScale(), scaleProgress));
-        data.setYScale(interpolate(fromScale, data.yScale(), scaleProgress));
-        data.setXTranslation(interpolate(icon.x() - geometry.x(), data.xTranslation(), scaleProgress));
-        data.setYTranslation(interpolate(icon.y() - geometry.y(), data.yTranslation(), scaleProgress));
+        data.setXScale(interpolate(fromScale, 1, scaleProgress));
+        data.setYScale(interpolate(fromScale, 1, scaleProgress));
+        data.setXTranslation(interpolate(icon.x() - geometry.x(), 0, scaleProgress));
+        data.setYTranslation(interpolate(icon.y() - geometry.y(), 0, scaleProgress));
 
         data.multiplyOpacity(interpolate(m_opacity, 1, opacityProgress));
     }
