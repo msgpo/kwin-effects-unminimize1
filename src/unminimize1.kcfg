@@ -9,7 +9,7 @@
             <default>0</default>
         </entry>
         <entry name="Opacity" type="Double">
-            <default>0.9</default>
+            <default>0.65</default>
             <min>0</min>
             <max>1</max>
         </entry>
