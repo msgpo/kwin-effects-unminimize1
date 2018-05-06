@@ -4,6 +4,11 @@
 
 ## Installation
 
+### Arch Linux
+
+For Arch Linux [kwin-effects-unminimize1](https://aur.archlinux.org/packages/kwin-effects-unminimize1/)
+is available in the AUR.
+
 ### From source
 
 ```sh
