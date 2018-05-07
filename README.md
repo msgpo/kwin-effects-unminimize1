@@ -9,6 +9,13 @@
 For Arch Linux [kwin-effects-unminimize1](https://aur.archlinux.org/packages/kwin-effects-unminimize1/)
 is available in the AUR.
 
+### Ubuntu
+
+```sh
+sudo add-apt-repository ppa:vladzzag/kwin-effects
+sudo apt install libkwin4-effect-unminimize1
+```
+
 ### From source
 
 ```sh
